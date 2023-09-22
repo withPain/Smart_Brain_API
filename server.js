@@ -28,6 +28,7 @@ const app = express();
 //
 //
 app.get('/', (req, res) => {
+  console.log('arrived at /')
   res.sendStatus(200)
 })
 //
